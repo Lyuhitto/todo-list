@@ -6,6 +6,7 @@ export default function AddTodo({ onAdd }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onAdd({id: '고유값', text, status: 'active'})
+    setText('');
   }
   return (
     <form
