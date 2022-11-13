@@ -5,6 +5,9 @@ export default function AddTodo({ onAdd }) {
   const handleChange = (e) => setText(e.target.value);
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(text.trim === 0) {
+      return;
+    }
     onAdd({id: '고유값', text, status: 'active'})
     setText('');
   }
