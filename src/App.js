@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import TodoList from './component/TodoList/TodoList';
 
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <TodoList />
+    </div>
+  );
 }
