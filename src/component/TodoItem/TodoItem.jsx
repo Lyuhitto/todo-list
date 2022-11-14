@@ -10,7 +10,7 @@ export default function TodoItem({ todo, onDelete, onUpdate }) {
   };
   const { id, text, status } = todo;
   return (
-    <li key={id} className={styles.item}>
+    <li className={styles.item}>
       <input
         type='checkbox'
         name='checkbox'
