@@ -17,17 +17,20 @@ Live demo is here: (URL)
 
 - React
 - [Font Icons](https://react-icons.github.io/react-icons/ "go to Font Icons"): Easily add icons to React Apps
-- [](https://www.npmjs.com/package/uuid "go to uuid"): Generate random ID
+- [uuid](https://www.npmjs.com/package/uuid "go to uuid"): Generate random ID
 
 ## Features
 ---
 
-- a
+- Add and Delete todos
+- Dark mode
+- Filtering (All, Active, Completed)
+
 
 ## To-do (Future)
 ---
 
-- b
+- Use strike through when a item is completed
 
 ## License
 ---
