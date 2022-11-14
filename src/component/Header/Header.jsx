@@ -1,7 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-export default function Header() {
+export default function Header({ filters, filter, onFilterChange }) {
   return (
-    <div>Header</div>
-  )
+    <header>
+      <ul>
+        {filters.map((value, index) => (
+          <li key={index}>
+            <button onClick={() => onFilterChange(value)}>{value}</button>
+          </li>
+        ))}
+      </ul>
+    </header>
+  );
 }
