@@ -6,7 +6,9 @@
   --color-accent: #f16e03;
   --color-white: #fff
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   box-sizing: border-box;
   margin: 0;
